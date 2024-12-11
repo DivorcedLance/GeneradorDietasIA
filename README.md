@@ -1,0 +1,3 @@
+- Crear un entorno virtual
+- Instalar las dependencias
+- Crea un archivo llamado '''.env''' en el archivo colocas la clave de la api(API_KEY = XXXXX)
