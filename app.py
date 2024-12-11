@@ -38,7 +38,3 @@ def generar_dieta():
         return jsonify(dieta), 200
     except Exception as e:
         return jsonify({"error": f"Error al generar la dieta: {str(e)}"}), 500
-
-if __name__ == "__main__":
-    port = int(os.environ.get("PORT", 8000))
-    app.run(host="0.0.0.0", port=port)
